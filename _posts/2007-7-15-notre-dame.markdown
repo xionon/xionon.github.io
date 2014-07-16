@@ -1,3 +1,8 @@
+---
+layout: post
+title: Notre Dame, Marketing Communications
+---
+
 When I started at Notre Dame, my main responsibility, Conductor, was in serious trouble. The application crashed regularly, performance was beyond terrible, and nobody could tell me what was actually wrong with it.
 
 Since then, I've solved a multitude of problems:

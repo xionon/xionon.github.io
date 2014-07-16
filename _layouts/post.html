@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>alechipshear.com by xionon</title>
+    <title>{{ page.title }} | alechipshear.com by xionon</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -21,19 +21,13 @@
         <p class="view"><a href="https://github.com/xionon">View My GitHub Profile</a></p>
         <p class="view"><a href="https://twitter.com/xionon">Read my innane tweets</a></p>
         <p class="view"><a href="https://facebook.com/alec.hipshear">Don't friend me on Facebook</a></p>
-        
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      
-      f</header>
+
+      </header>
+
       <section>
-        <p>I'm Alec Hipshear, I use xionon on most websites.</p>
+        {{ content }}
       </section>
+      
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
