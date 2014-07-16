@@ -22,6 +22,13 @@
         <p class="view"><a href="https://twitter.com/xionon">Read my innane tweets</a></p>
         <p class="view"><a href="https://facebook.com/alec.hipshear">Don't friend me on Facebook</a></p>
         
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </header>
       <section>
         <p>I'm Alec Hipshear, I use xionon on most websites.</p>
