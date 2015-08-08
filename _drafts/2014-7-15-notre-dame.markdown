@@ -15,4 +15,4 @@ Since then, I've solved a multitude of problems:
 
   * Conductor used to cost $3,000 per month in server costs. Conductor now costs less than $1,000 per month.
 
-By all measures, my time at Notre Dame has been astonishingly successful. Even so, I don't feel like I'm quite done, creatively speaking. There are a lot of things that I feel I haven't finished: a significant number of problems left to solve. The painting isn't finished.
+By all measures, my time at Notre Dame has been astonishingly successful. Even so, I don't feel like I'm quite done, creatively speaking. There are a lot of things that I feel I haven't finished: a significant number of problems left to solve.

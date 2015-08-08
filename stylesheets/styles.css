@@ -253,3 +253,5 @@ footer {
     color:#444;
   }
 }
+
+.highlight .language-javascript .err { background-color: transparent; color: inherit; }
