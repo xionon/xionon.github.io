@@ -1,1 +1,1 @@
-blog: bundle exec jekyll serve --port $PORT
+jekyll: bundle exec jekyll serve --port $PORT
