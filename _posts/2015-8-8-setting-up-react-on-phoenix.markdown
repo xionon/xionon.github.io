@@ -3,6 +3,8 @@ layout: post
 title: Setting up React on Phoenix
 ---
 
+[I've revised this post for Phoenix 1.1 and Brunch 2.0. Click here for the most recent instructions on setting up React on Phoenix.]({% post_url 2016-01-08-revised:-setting-up-react-on-phoenix %})
+
 For my day job, I mostly write APIs with Rails, but I like to play around with other frameworks whenever I have a chance.  Lately, I've been playing with [Phoenix](http://phoenixframework.org/), which is a full-stack web framework for [Elixir](http://elixir-lang.org/), and [React](http://facebook.github.io/react/), which is a Javascript library from Facebook. This post describes how to get them working nicely together.
 
 *Important: This tutorial requires relatively new features in Brunch and Phoenix, namely the brunch/npm integration. Please ensure your versions of Phoenix and Brunch are up-to-date:*
