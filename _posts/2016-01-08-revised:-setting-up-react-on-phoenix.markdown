@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up React on Phoenix<br/>Revised for Brunch 2.0 and Phoenix 1.1"
+title: "Setting up React on Phoenix: Revised for Brunch 2.0 and Phoenix 1.1"
 ---
 
 In my last post, I described [getting React, Brunch and Phoenix working together]({% post_url 2015-8-8-setting-up-react-on-phoenix %}) in the most basic way possible. That worked, but I had trouble getting the NPM integration in Brunch 1.8.5 working with other NPM packages. As of [2.1.0](https://github.com/brunch/brunch/blob/master/CHANGELOG.md#brunch-210-jan-1-2016), the Brunch team has significantly improved the NPM integration, and that gives me a good opportunity to revisit it. You might want to check out the docs for [Brunch's NPM integration](https://github.com/brunch/brunch/blob/master/docs/config.md#npm-experimental) before we get started.
