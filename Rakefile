@@ -1,6 +1,10 @@
 require 'date'
 require 'fileutils'
 
+task :default do
+  system "rake --tasks"
+end
+
 desc "Create a new post"
 task :post do
   date = Date.today.strftime("%Y-%m-%d")
@@ -16,7 +20,9 @@ task :post do
     end
     puts ""
     print "Enter a number: "
-    index = STDIN.gets.chomp.to_i
+    index = STDIN.gets.chomp.gsub(/[^[:digit:]]/, '')
+    index = index.empty? ? nil : index.to_i
+    next unless index && index < drafts.count && index >= 0
 
     puts "Publishing #{drafts[index]}"
     filename = [date, File.basename(drafts[index])].join('-')
