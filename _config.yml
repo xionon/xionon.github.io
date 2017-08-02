@@ -2,4 +2,4 @@ name: alechipshear.com
 url: "http://www.alechipshear.com"
 highlighter: pygments
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
