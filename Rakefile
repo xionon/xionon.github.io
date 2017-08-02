@@ -30,7 +30,7 @@ task :draft do
   title = STDIN.gets.chomp
 
   filename_title = title.gsub(/[^[[:alnum:]] ]/i, '').split(" ").map(&:downcase)
-  filename = Array.wrap(filename_title).join('-')
+  filename = filename_title.join('-')
 
   File.open("_drafts/" + filename + ".markdown", "w+") do |draft|
     draft.puts(<<-DRAFT)
