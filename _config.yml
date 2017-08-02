@@ -1,7 +1,5 @@
+name: alechipshear.com
+url: "http://www.alechipshear.com"
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - fenced_code_blocks
-    - footnotes
-
+markdown: kramdown
+highlighter: rogue
